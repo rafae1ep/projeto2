@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube - Kenzie</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./reset.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <!-- LOGO -->
+      <div class="coluna">
+        <figure>
+          <img src="./img/logo.png" alt="logo youtube" />
+        </figure>
+      </div>
+
+      <!-- PESQUISA -->
+      <div class="coluna">
+        <div class="formularioPesqusia">
+          <input type="text" placeholder="Pesquisar" />
+          <button>
+            <img src="./img/pesquisa.svg" alt="botão de pesquisa" />
+          </button>
+        </div>
+      </div>
+
+      <!-- USUARIO-->
+      <div class="coluna">
+        <figure class="imagemUsuario">
+          <img src="./img/usuario.jpg" alt="imagem de usuario" />
+        </figure>
+      </div>
+    </header>
+
+    <main>
+      <div class="destaqueCanal"></div>
+
+      <section class="secaoCanal">
+        <div class="container">
+          <div class="detalheCanal">
+            <figure>
+              <img src="./img/logocanal.jpg" alt="Kenzie Academy" />
+            </figure>
+            <div class="detalheCanal_info">
+              <h1>Kenzie Academy Brasil</h1>
+              <p>88,5 mil inscritos</p>
+            </div>
+          </div>
+
+          <nav class="menusNavegacaoCanal">
+            <ul>
+              <li>
+                <a href="#">Início</a>
+              </li>
+              <li>
+                <a href="#">Vídeos</a>
+              </li>
+              <li>
+                <a href="#">PlayLists</a>
+              </li>
+              <li>
+                <a href="#">Comunidade</a>
+              </li>
+              <li>
+                <a href="#">Canais</a>
+              </li>
+              <li>
+                <a href="#">Sobre</a>
+              </li>
+              <button>
+                <img src="./img/pesquisa.svg" alt="botão de pesquisa" />
+              </button>
+            </ul>
+          </nav>
+        </div>
+      </section>
+
+      <div class="containerVideosDestaques">
+        <!-- COLUNA DA ESQUERDA-->
+        <div class="coluna coluna--esquerda">
+          <section class="secaoVideosDestaque">
+            <h2>Conheça mais sobre a Kenzie Academy Brasil</h2>
+            <ul class="secaoVideosDestaques_lista">
+              <li></li>
+            </ul>
+          </section>
+        </div>
+
+        <!-- COLUNA DA DIREIRA-->
+
+        <div class="coluna coluna--direita">
+          <section class="secaoAdicionarAFila">
+            <header class="secaoAdicionarAFila_cabecalho">
+              <h2>Fila de reprodução</h2>
+              <p>Kenzie Academy Brasil</p>
+            </header>
+            <ul class="secaoAdicionarAFila_lista"></ul>
+          </section>
+        </div>
+      </div>
+      <section class="secaoTodosVideos">
+        <div class="container">
+          <h2><img src="./img/play.svg" alt="" />Reproduzir todos</h2>
+          <section class="secaoTodosVideos">
+            <ul class="secaoTodosVideos_lista">
+              <li>
+                <figure>
+                  <img src="./img/thumb1.webp" alt="" />
+                </figure>
+                <div>
+                  <h3>Conheça todo o universo da Kenzie Academy Brasil</h3>
+                  <span>2,7 mil vizualizações</span>
+                  <p>descrição</p>
+                  <button class="buttonAdicionarAFila">ADICIONAR A FILA</button>
+                </div>
+              </li>
+            </ul>
+            <ul class="secaoTodosVideos_lista">
+              <li>
+                <figure>
+                  <img src="./img/thumb2.webp" alt="" />
+                </figure>
+                <div>
+                  <h3>Conheça todo o universo da Kenzie Academy Brasil</h3>
+                  <span>2,7 mil vizualizações</span>
+                  <p>descrição</p>
+                  <button class="buttonAdicionarAFila">ADICIONAR A FILA</button>
+                </div>
+              </li>
+            </ul>
+            <ul class="secaoTodosVideos_lista">
+              <li>
+                <figure>
+                  <img src="./img/thumb1.webp" alt="" />
+                </figure>
+                <div>
+                  <h3>Conheça todo o universo da Kenzie Academy Brasil</h3>
+                  <span>2,7 mil vizualizações</span>
+                  <p>descrição</p>
+                  <button class="buttonAdicionarAFila">ADICIONAR A FILA</button>
+                </div>
+              </li>
+            </ul>
+            <ul class="secaoTodosVideos_lista">
+              <li>
+                <figure>
+                  <img src="./img/thumb2.webp" alt="thumb kenzie" />
+                </figure>
+                <div>
+                  <h3>Conheça todo o universo da Kenzie Academy Brasil</h3>
+                  <span>2,7 mil vizualizações</span>
+                  <p>descrição</p>
+                  <button class="buttonAdicionarAFila">ADICIONAR A FILA</button>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </section>
+    </main>
+  </body>
+
+  <script src="./script.js"></script>
+</html>
